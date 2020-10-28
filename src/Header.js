@@ -1,5 +1,6 @@
 import React from 'react';
 import SVG from './Logo';
+import Menu from './Menu';
 
 function Header() {
     return(
@@ -10,7 +11,9 @@ function Header() {
                         <SVG name="logo" height="32" width="102" color="#ffffff" />
                     </a>
                 </div>
-                <div className="menu"></div>
+                <div className="menu">
+                    <Menu />
+                </div>
                 <div className="ect_menu"></div> 
             </div>   
         </header>
