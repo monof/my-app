@@ -1,0 +1,20 @@
+/*layout*/
+*{box-sizing:border-box;word-break:keep-all;}
+.wrap{width: 100%;min-height: 100%;}
+.container{max-width: 1760px;margin: 0 auto;display: flex;align-items: center;height: 100%;padding:0 80px}
+/*gnb*/
+header{position: fixed;width: 100%;height: 80px;color: #fff;}
+header .logo{height: 100%;}
+header .logo a{color: transparent;height: 100%;display: inline-block;display: flex;align-items: center;}
+/*main_banner*/
+.main_banner{
+  height : 830px;
+  width : 100%;
+  background-image : url(https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=1920);
+  background-size : cover;
+}
+.main_banner .text_wrap{max-width: 300px;}
+.main_banner h1{font-size: 40px;color: #fff;font-weight: bolder;line-height: 40px;margin: 0 0 16px 0;}
+.main_banner p{font-size: 14px;color: #fff;line-height: 18px;font-weight: 600;margin: 0 0 16px 0;}
+.main_banner a{font-size: 14px;color: #222222;background: #fff;line-height: 18px;padding: 8px 16px;border-radius: 8px;text-decoration: none;font-weight: 600;display: inline-block;}
+.main_banner a:hover{background-color: #dddddd;}
